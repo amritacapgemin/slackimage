@@ -1,1 +1,1 @@
-web: node imageupload.js
+web: node app.js
