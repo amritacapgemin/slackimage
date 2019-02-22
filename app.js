@@ -20,11 +20,11 @@ app.get('/getimage', (req, res) => {
                 "fallback": "Required plain-text summary of the attachment.",
                 "color": "#2eb886",
                 "pretext": "Data description is here",
-                "author_name": "Image",
-                "author_link": "https://static.dialogflow.com/common/favicon.png",
+                "author_name": "Author Name",
+                "author_link": "https://slack.global.ssl.fastly.net/0cc2/pdfs/users_guide.pdf",
                 "author_icon": "download.png",
                 "title": "Slack API Documentation",
-                "title_link": "https://static.dialogflow.com/common/favicon.png",
+                "title_link": "file/test.pdf",
                 "text": "Optional text that appears within the attachment",
                 "fields": [
                     {
