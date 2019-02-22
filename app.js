@@ -3,14 +3,14 @@ Slack = require('node-slackr');
 slack = new Slack('https://hooks.slack.com/services/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');
 
 messages = {
-  text: "Server Down",
+  text: "Display Image",
   channel: "#notifications",
  "attachments": [
         {
             "fallback": "Required plain-text summary of the attachment.",
             "color": "#2eb886",
-            "pretext": "Optional text that appears above the attachment block",
-            "author_name": "Bobby Tables",
+            "pretext": "Data description is here",
+            "author_name": "Image",
             "author_link": "https://static.dialogflow.com/common/favicon.png",
             "author_icon": "download.png",
             "title": "Slack API Documentation",
