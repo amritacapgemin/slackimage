@@ -24,7 +24,7 @@ app.get('/getimage', (req, res) => {
                 "author_link": "https://slack.global.ssl.fastly.net/0cc2/pdfs/users_guide.pdf",
                 "author_icon": "download.png",
                 "title": "Slack API Documentation",
-                "title_link": "file/test.pdf",
+                "title_link": "https://slack.global.ssl.fastly.net/0cc2/pdfs/users_guide.pdf",
                 "text": "Optional text that appears within the attachment",
                 "fields": [
                     {
